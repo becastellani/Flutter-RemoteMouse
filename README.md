@@ -1,16 +1,73 @@
-# remote_control_app
+# **Controle Remoto - App Flutter**
 
-A new Flutter project.
+Este projeto é o aplicativo móvel que funciona como cliente para o servidor **Python** e permite controlar o computador remotamente. Com o app, é possível ajustar o volume, mover o mouse, realizar cliques (esquerdo/direito) e rolar o scroll diretamente do seu smartphone.
 
-## Getting Started
+---
 
-This project is a starting point for a Flutter application.
+## **Índice**
 
-A few resources to get you started if this is your first Flutter project:
+- [Funcionalidades](#funcionalidades)
+- [Tecnologias Utilizadas](#tecnologias-utilizadas)
+- [Como Compilar e Executar](#como-compilar-e-executar)
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+---
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## **Funcionalidades**
+
+- **Controle de Volume**: Aumentar ou diminuir o volume do computador com um slider.
+- **Controle do Mouse**:
+  - Movimentação precisa através de um joystick.
+  - Botões para clique esquerdo e direito.
+  - Controle de scroll para cima e para baixo.
+- **Autorização por QR Code**:
+  - Escaneie o QR Code gerado pelo servidor para conectar automaticamente ao computador.
+
+---
+
+## **Tecnologias Utilizadas**
+
+- **Framework**: Flutter.
+- **Bibliotecas Principais**:
+  - `mobile_scanner`: Para escanear o QR Code gerado pelo servidor.
+  - `flutter_joystick`: Para controle do movimento do mouse.
+  - `http`: Para comunicação com o servidor.
+
+---
+
+## **Como Compilar e Executar**
+
+1. **Clone o repositório**:
+   ```bash
+   git clone https://github.com/seu-usuario/seu-repositorio.git
+   ```
+
+2. **Instale as dependências do Flutter**
+```bash
+  flutter pub get
+```
+
+3. **Faça o build do APK **
+```bash
+ flutter build apk --release
+```
+
+---
+
+## **Melhorias Futuras**
+
+- Implementar mais funcionalidades de controle, como:
+  - Controle de teclado.
+  - Configurações customizáveis no app.
+- Melhorar a interface do usuário para torná-la mais intuitiva.
+- Adicionar suporte para diferentes sistemas operacionais no servidor.
+
+---
+
+## **Licença e Copyright**
+
+Este projeto foi desenvolvido como uma solução prática e está disponível para aprendizado e aprimoramento. Sinta-se à vontade para utilizar, modificar e compartilhar, desde que seja dado o devido crédito.
+
+**Autor**: [Bernardo Castellani]  
+**Copyright** © 2024. Todos os direitos reservados.
+
+
