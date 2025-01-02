@@ -38,7 +38,7 @@ Este projeto é o aplicativo móvel que funciona como cliente para o servidor **
 
 1. **Clone o repositório**:
    ```bash
-   git clone https://github.com/seu-usuario/seu-repositorio.git
+   git clone https://github.com/seu-usuario/seu-repositorio.git](https://github.com/becastellani/Flutter-RemoteMouse
    ```
 
 2. **Instale as dependências do Flutter**
