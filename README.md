@@ -46,7 +46,7 @@ Este projeto é o aplicativo móvel que funciona como cliente para o servidor **
   flutter pub get
 ```
 
-3. ** Faça o build do APK **
+3. **Faça o build do APK**
 ```bash
  flutter build apk --release
 ```
